@@ -21,6 +21,7 @@
 		94F532F1191978E30036A5D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F532D3191978E30036A5D2 /* UIKit.framework */; };
 		94F532F9191978E30036A5D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F532F7191978E30036A5D2 /* InfoPlist.strings */; };
 		94F532FB191978E30036A5D2 /* IOPSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F532FA191978E30036A5D2 /* IOPSampleTests.m */; };
+		94F5330619198EEF0036A5D2 /* IOPWeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5330519198EEF0036A5D2 /* IOPWeatherData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		94F532F6191978E30036A5D2 /* IOPSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOPSampleTests-Info.plist"; sourceTree = "<group>"; };
 		94F532F8191978E30036A5D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94F532FA191978E30036A5D2 /* IOPSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOPSampleTests.m; sourceTree = "<group>"; };
+		94F5330419198EEF0036A5D2 /* IOPWeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOPWeatherData.h; sourceTree = "<group>"; };
+		94F5330519198EEF0036A5D2 /* IOPWeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOPWeatherData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		94F532D5191978E30036A5D2 /* IOPSample */ = {
 			isa = PBXGroup;
 			children = (
+				94F5330419198EEF0036A5D2 /* IOPWeatherData.h */,
+				94F5330519198EEF0036A5D2 /* IOPWeatherData.m */,
 				94F532DE191978E30036A5D2 /* IOPAppDelegate.h */,
 				94F532DF191978E30036A5D2 /* IOPAppDelegate.m */,
 				94F532E1191978E30036A5D2 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F532E6191978E30036A5D2 /* IOPViewController.m in Sources */,
+				94F5330619198EEF0036A5D2 /* IOPWeatherData.m in Sources */,
 				94F532DC191978E30036A5D2 /* main.m in Sources */,
 				94F532E0191978E30036A5D2 /* IOPAppDelegate.m in Sources */,
 			);
