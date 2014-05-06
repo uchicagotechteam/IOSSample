@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Jakub Tucholski. All rights reserved.
 //
 
+// delegate for entire application
 #import <UIKit/UIKit.h>
 
 @interface IOPAppDelegate : UIResponder <UIApplicationDelegate>
