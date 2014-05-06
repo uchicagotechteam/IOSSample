@@ -99,6 +99,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="annarborLabel" destination="ZJJ-JX-D20" id="fhz-xu-ssp"/>
+                        <outlet property="beijingLabel" destination="vDo-Bl-7QE" id="z3y-G9-jyC"/>
+                        <outlet property="bhamLabel" destination="b4t-OI-IrE" id="xaD-X3-atU"/>
+                        <outlet property="chicagoLabel" destination="o0Z-JF-u6g" id="mdy-3d-TWJ"/>
+                        <outlet property="sanfranLabel" destination="WHG-dF-HJ2" id="2ka-lf-5aS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
